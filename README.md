@@ -31,3 +31,4 @@ map('i', '<C-Tab>', 'copilot#Accept("\\<CR>")', {
           replace_keycodes = false
         })
 ```
+4. Open Nvim and run `:Copilot setup`
