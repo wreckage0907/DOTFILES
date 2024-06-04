@@ -1,0 +1,46 @@
+# Basic configuration options
+[window]
+  dimensions = { columns = 100, lines = 40 }
+
+# Font configuration
+[font]
+  size = 12.0
+  normal = { family = "Hack" }
+  bold = { family = "Hack" }
+  italic = { family = "Hack" }
+  bold_italic = { family = "Hack" }
+
+# Colorscheme
+[colors]
+  primary = { background = "#000111", foreground = "#bbc2cf" }
+
+# Cursor settings
+[cursor]
+  style = "Block"
+  unfocused_hollow = true
+
+# Scrolling behavior
+[scrolling]
+  history = 1000
+  multiplier = 3
+
+# Keybindings
+[[keyboard.bindings]]
+  key = "PageUp"
+  mods = "Control"
+  action = "ScrollPageUp"
+
+[[keyboard.bindings]]
+  key = "PageDown"
+  mods = "Control"
+  action = "ScrollPageDown"
+
+# Mouse configuration
+[mouse]
+
+# Window options
+[window.padding]
+  x = 10
+  y = 10
+
+# Terminal emulation options
